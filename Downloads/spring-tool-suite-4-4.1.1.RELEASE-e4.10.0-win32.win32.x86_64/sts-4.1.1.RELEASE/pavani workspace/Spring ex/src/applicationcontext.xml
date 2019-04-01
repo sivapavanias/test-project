@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+<bean id="poo" class="com.src.Pojo" scope="prototype">
+<property name="cid" value="420"></property>
+<property name="cname" value="pavani"></property>
+<property name="address" value="hyd"></property>
+</bean>
+<bean  id="pen" class="com.src.Address" >
+<property name="hno" value="420"></property>
+<property name="cname" value="pavani"></property>
+<property name="cityname" value="hyd"></property>
+</bean>
+</beans>
+
